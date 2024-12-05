@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+/*
+body{
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+    */
+.nav{
+    color: azure;
+    background-color:  #424949;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+.nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    justify-content: space-between;
+    height: max-content;
+    
+}
+.nav ul li{
+    display: inline-block;
+    margin-left:20px ;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px;
+    margin-top: 5px;
+}
+.nav ul li a{
+    color: azure;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 30px;
+
+}
+
+a:hover{
+    color: azure;
+    background-color: rgb(246, 94, 71);
+    transition: 0.5s;
+    filter: drop-shadow(5px);
+    opacity: 0.5s;
+}
+.header{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(246, 94, 71);
+}
+.klam{
+    padding-top: 10px;
+    padding: 10px;
+}
+.about{
+    color: azure;
+}
+.paragraphcontainer{
+    height: 100px;
+    width: 100%;
+    background-color: #d3d3d3;
+    display: block;
+
+}
+.paragraph{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    color: #424949;
+
+}
+.h5{
+    padding-top: 8px;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.contianer{
+    width: 100%;
+    height: 500px;
+    display: block;
+    padding-left: 60px;
+}
+.ourteam{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 94, 71);
+    height: 35px;
+    width: 92%;
+    margin-left: 50px;   
+    margin-top: 40px;
+
+    
+}
+.typing{
+    align-items: center;
+    justify-content: center;
+    margin-left: 11px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+
+}
+.bar{
+    display: flex;
+    align-items: center;
+    color: azure;
+ 
+}
+.colorpallet{
+    width: 25px;
+    display: inline;
+    padding-left: 5px;
+}
+/*
+.ul { 
+    list-style: none;
+    width: 92%;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    align-content: center;
+    justify-content: space-between;
+    height: 340px;
+    color: #424949;    
+    display: flex;
+   
+}
+.ul li{
+    display: inline-block;
+    margin-left:20px ;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px;
+    margin-top: 5px;
+}
+*/
+  
+.owen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.onwer {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 20px;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  background-color: var(--main-color);
+  width:100%;
+  padding: 0px;
+  border-radius: 5px;
+  color: white;
+}
+
+.icons {
+  background-color: #346291; 
+  border-radius: 5px;
+  padding: 5px;
+}
+.text-own{
+    margin-left: 4px;
+}
+.secound {
+  display: flex;
+ align-items: center;
+ justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 30px;
+  width: 100%;
+}
+ .pack{
+    background-color: rgb(213, 217, 220);
+    height: 250px;
+ }
+.user {
+    
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  width: 30%; 
+}
+
+.user i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 250px;
+   margin: 10px;
+  color: #2c3e50; 
+}
+
+.user p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0; /* مسافة بين الفقرات */
+}
+ .user .pr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    font-size: 14px;
+}
+.pc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 !important;
+}
+
+.footercontainer{
+    background-color: #424949;
+    display: grid;
+    width: 878px;
+    margin-top: 52px;
+}  
+.footercontainer ul{
+    background-color: #424949;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;  
+    margin-left: 650px;
+
+}
+
+.footercontainer ul li{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: center;
+    
+
+}
+
+.img{
+height: 25px;
+margin: 5px;
+background-color: azure;
+}
